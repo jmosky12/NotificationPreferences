@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NotificationPreferences" representedClassName="NotificationPreferences" syncable="YES">
+        <attribute name="notificationsEnabled" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tenantID" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="baseURL" optional="YES" attributeType="String"/>
+        <attribute name="tenantID" optional="YES" attributeType="String"/>
+        <attribute name="tenantName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="NotificationPreferences" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="User" positionX="-54" positionY="9" width="128" height="88"/>
+    </elements>
+</model>
